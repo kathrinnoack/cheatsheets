@@ -1,16 +1,32 @@
 # Shell commands 
 
-## Generalizations
-Congratulations! You’ve learned five commands commonly used to navigate the filesystem from the command line. What can we generalize so far?
-![trees](filesystem-start.svg)
-* The command line is a text interface for the computer’s operating system. To access the command line, we use the terminal.
+## Navigation
+Hier sind fünf wichtige Befehle für das Arbeiten (navigieren)mit der *Command Line*
 
-* A filesystem organizes a computer’s files and directories into a tree structure. It starts with the root directory. Each parent directory can contain more
+* die *command line* ist text-basiert. Um sie zu benutzen, wird das *iTerm* verwendet.
 
-* From the command line, you can navigate through files and folders on your computer:
+* Mit der Command Line kann man sich durch Dateien und Ordner navigieren:
 
-    * **pwd** outputs the name of the current working directory.
-    * **ls** lists all files and directories in the working directory.
-    * **cd** switches you into the directory you specify.
-    * **mkdir** creates a new directory in the working directory.
-    * **touch** creates a new file inside the working directory.
+    * **pwd** = print working directory = zeigt den Pfad in den Ordner in dem man sich befindet.
+    * **ls** = list = zeigt alle Dateien in dem aktuellen Ordner, in dem man sich befindet, an.
+    * **cd** = change directory = ist eine Anweisung mit der man in den genannten Ordner springt    
+         * cd bringt mich in mein Verzeichnis
+        * cd.. bringt mich einen Ordner hoch
+    * **mkdir** = make directory = legt neuen Ordner an 
+    * **touch** = legt eine neue Datei in demn aktuellen Ordner an
+
+
+## Manipulation -  oder noch mehr Navigation
+
+* Optionen verändern das Verhalten von befehlen:
+    * **ls -a** lists all contents of a directory, including hidden files and directories
+    * **ls -l** lists all contents in long format
+    * **ls -t** orders files and directories by the time they were last modified
+    Multiple options can be used together, like **ls -alt**
+
+* Von der *command line* aus, kann man Ordner und Dateien auch kopieren, verschieben und löschen:
+    * **cp** kopiert Dateien
+    * **mv** bewegt Dateien und nennt sie auch um
+    * **rm** löscht Dateien
+    * **rm -r** löscht Ordner
+* Wildcards are useful for selecting groups of files and directories
