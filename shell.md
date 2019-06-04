@@ -9,9 +9,9 @@ Hier sind fünf wichtige Befehle für das Arbeiten (navigieren)mit der *Command 
 
     * `pwd` = print working directory = zeigt den Pfad in den Ordner in dem man sich befindet.
     * `ls` = list = zeigt alle Dateien in dem aktuellen Ordner und Unterordner  an.
-        * `la -a` = Liste mit Details, auch mit versteckten Dateien
-        * `la -l`= Liste mit Details (`l`= long)
-        * `la -t`= orders files and directories by the time they were last modified
+        * `ls -a` = Liste mit Details, auch mit versteckten Dateien
+        * `ls -l`= Liste mit Details (`l`= long)
+        * `ls -t`= orders files and directories by the time they were last modified
 
     * `cd [Ordnername]` = change directory = ist eine Anweisung mit der man in den genannten Ordner springt    
         * `cd` bringt mich in mein Verzeichnis
